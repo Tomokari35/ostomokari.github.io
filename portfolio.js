@@ -1,5 +1,5 @@
 const buttons = document.querySelectorAll('[data-filter]');
-const cards = document.querySelectorAll('.portfolio-card'); // <-- correction ici
+const cards = document.querySelectorAll('.portfolio-card');
 
 buttons.forEach(btn => {
   btn.addEventListener('click', () => {
@@ -7,8 +7,8 @@ buttons.forEach(btn => {
 
     cards.forEach(card => {
       if (filter === 'all') {
-        // Si "Tout" → on cache tout
-        card.style.display = 'none';
+        // Si "Tout" → afficher toutes les cartes
+        card.style.display = 'block';
       } else {
         // Sinon on affiche seulement la catégorie cliquée
         card.style.display =
