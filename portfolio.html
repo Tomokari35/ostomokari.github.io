@@ -46,78 +46,8 @@
       <img src="https://example.com/model2.jpg">
       <img src="https://example.com/model3.jpg">
     </div>
-
-      <h3>Environnement 3D</h3>
-      <p>Création d’un décor optimisé pour jeu.</p>
-    </div>
-
-    <div class="card portfolio-card" data-category="ui">
-      <img src="img/ui.jpg" alt="Interface Design">
-      <h3>UI Dashboard</h3>
-      <p>Interface moderne et animée.</p>
-    </div>
-
-    <div class="card portfolio-card" data-category="script">
-      <img src="img/script.jpg" alt="Script">
-      <h3>Système LUAU</h3>
-      <p>Scripting avancé Roblox.</p>
-    </div>
-
-  </div>
 </section>
-
-<!-- STATS -->
-<section id="portfolio-stats">
-  <h2>Statistiques</h2>
-
-  <div class="stats-container">
-    <div class="stat">
-      <h3>15+</h3>
-      <p>Projets</p>
-    </div>
-    <div class="stat">
-      <h3>4</h3>
-      <p>Catégories</p>
-    </div>
-    <div class="stat">
-      <h3>2+</h3>
-      <p>Années</p>
-    </div>
-  </div>
-</section>
-
-<!-- SKILLS -->
-<section id="portfolio-skills">
-  <h2>Compétences</h2>
-
-  <div class="skills-container">
-    <div class="skill">
-      <h3>Model 3D</h3>
-      <div class="skill-bar"><span style="width:80%"></span></div>
-    </div>
-    <div class="skill">
-      <h3>UI / UX</h3>
-      <div class="skill-bar"><span style="width:75%"></span></div>
-    </div>
-    <div class="skill">
-      <h3>LUAU / Script</h3>
-      <div class="skill-bar"><span style="width:85%"></span></div>
-    </div>
-  </div>
-</section>
-
-<!-- BADGES -->
-<section id="badges">
-  <h2>Badges</h2>
-
-  <div class="badges-container">
-    <div class="badge">🔥 Créatif</div>
-    <div class="badge">⚡ Rapide</div>
-    <div class="badge">🎯 Précis</div>
-    <div class="badge">💡 Innovant</div>
-  </div>
-</section>
-
+      
 <footer>
   <p>© 2026 Ostomokari — Portfolio</p>
 </footer>
@@ -125,22 +55,6 @@
 <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 
 <script>
-/* FILTRES */
-const buttons = document.querySelectorAll('[data-filter]');
-const cards = document.querySelectorAll('.portfolio-card');
-
-buttons.forEach(btn => {
-  btn.addEventListener('click', () => {
-    const filter = btn.dataset.filter;
-
-    cards.forEach(card => {
-      card.style.display =
-        filter === 'all' || card.dataset.category === filter
-        ? 'block'
-        : 'none';
-    });
-  });
-});
 </script>
 
 </body>
