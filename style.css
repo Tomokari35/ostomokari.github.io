@@ -718,3 +718,19 @@ section.show h2 {
 .commision-status.closed {
   color: #f87171; /* rouge pour fermé */
 }
+
+.portfolio-intro {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.portfolio-intro p {
+  margin-bottom: 30px;
+  opacity: 0.85;
+  font-size: 1.05rem;
+}
+
+.portfolio-button {
+  display: flex;
+  justify-content: center;
+}
