@@ -119,9 +119,6 @@ section h2 {
 }
 
 /* PORTFOLIO CARD */
-.portfolio-card {
-  overflow: hidden;
-}
 
 .portfolio-card img {
   width: 100%;
