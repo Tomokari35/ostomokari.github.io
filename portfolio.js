@@ -1,6 +1,5 @@
-<script>
 const buttons = document.querySelectorAll('[data-filter]');
-const cards = document.querySelectorAll('.portfolio');
+const cards = document.querySelectorAll('.portfolio-card'); // <-- correction ici
 
 buttons.forEach(btn => {
   btn.addEventListener('click', () => {
@@ -18,4 +17,3 @@ buttons.forEach(btn => {
     });
   });
 });
-</script>
