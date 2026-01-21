@@ -218,3 +218,7 @@ footer {
     font-size: 2.6rem;
   }
 }
+
+.portfolio-card {
+  display: none;
+}
