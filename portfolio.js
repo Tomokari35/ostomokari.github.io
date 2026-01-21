@@ -7,12 +7,9 @@ buttons.forEach(btn => {
 
     cards.forEach(card => {
       if (filter === 'all') {
-        // Si "Tout" → afficher toutes les cartes
-        card.style.display = 'block';
+        card.style.display = 'block'; // Tout s'affiche
       } else {
-        // Sinon on affiche seulement la catégorie cliquée
-        card.style.display =
-          card.dataset.category === filter ? 'block' : 'none';
+        card.style.display = card.dataset.category === filter ? 'block' : 'none';
       }
     });
   });
