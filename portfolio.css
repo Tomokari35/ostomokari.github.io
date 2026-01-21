@@ -119,6 +119,9 @@ section h2 {
 }
 
 /* PORTFOLIO CARD */
+.portfolio-card {
+  display: none;
+}
 
 .portfolio-card img {
   width: 100%;
